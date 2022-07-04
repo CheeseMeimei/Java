@@ -1,0 +1,34 @@
+public class Person{
+	private int age;
+	private string name;
+	
+	public Person(){}
+	public Person(string name,int age){
+	this.name=name;this.age=age;
+	}
+	public void setAge(int age){
+	this.age=age;
+	}
+	public int getAge(){
+	return age;	
+	}
+	public void setName(string name){
+	this.name=name;
+	}
+	public int getName(){
+	return name;	
+	}
+
+	public void show(){
+	System.out.print(name+","+age);
+	}
+
+	public showPerson(){
+	System.out.print(getAge+"---"getName);
+}
+}
+
+public void main(String[] ages){
+	Person p=new Person("张雨佳"，18);
+	showPerson();
+}
